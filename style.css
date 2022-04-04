@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game {
+    width: 500px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+.game__title {
+    width: 100%;
+    color: #fff;
+    background: #ff2622;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: system-ui;
+    text-align: center;
+}
+.game__title span {color: #d1ed31;}
+.game__squire {
+    width: calc((500px / 2) - 104px);
+    height: 100px;
+    margin: 10px;
+    background-color: #f52;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+}
+.game__squire:hover {
+    background-color: #000;
+    cursor: pointer;
+}
